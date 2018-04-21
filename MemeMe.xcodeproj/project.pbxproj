@@ -13,6 +13,11 @@
 		4C39EB6520888C47003BF7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C39EB6420888C47003BF7BB /* Assets.xcassets */; };
 		4C39EB6820888C47003BF7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C39EB6620888C47003BF7BB /* LaunchScreen.storyboard */; };
 		4C39EB7320888C48003BF7BB /* MemeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39EB7220888C48003BF7BB /* MemeMeTests.swift */; };
+		4C7D592E2089D9C400235320 /* Super Comic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D592D2089D9C400235320 /* Super Comic.otf */; };
+		4C7D59312089D9D400235320 /* Impacted.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D592F2089D9D400235320 /* Impacted.ttf */; };
+		4C7D59322089D9D400235320 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D59302089D9D400235320 /* impact.ttf */; };
+		4C7D5934208A0E1D00235320 /* Comic Sans Ms.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D5933208A0E1C00235320 /* Comic Sans Ms.ttf */; };
+		4C7D5936208A0F5500235320 /* Blockt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D5935208A0F5500235320 /* Blockt.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		4C39EB6E20888C48003BF7BB /* MemeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C39EB7220888C48003BF7BB /* MemeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMeTests.swift; sourceTree = "<group>"; };
 		4C39EB7420888C48003BF7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7D592D2089D9C400235320 /* Super Comic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Super Comic.otf"; path = "../../Fonts/super-comic/Super Comic.otf"; sourceTree = "<group>"; };
+		4C7D592F2089D9D400235320 /* Impacted.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Impacted.ttf; path = ../../Fonts/impact/Impacted.ttf; sourceTree = "<group>"; };
+		4C7D59302089D9D400235320 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = impact.ttf; path = ../../Fonts/impact/impact.ttf; sourceTree = "<group>"; };
+		4C7D5933208A0E1C00235320 /* Comic Sans Ms.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comic Sans Ms.ttf"; path = "../../Fonts/Comic Sans Ms.ttf"; sourceTree = "<group>"; };
+		4C7D5935208A0F5500235320 /* Blockt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Blockt.ttf; path = ../../Fonts/Blockt.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				4C39EB6420888C47003BF7BB /* Assets.xcassets */,
 				4C39EB6620888C47003BF7BB /* LaunchScreen.storyboard */,
 				4C39EB6920888C47003BF7BB /* Info.plist */,
+				4C7D59302089D9D400235320 /* impact.ttf */,
+				4C7D592F2089D9D400235320 /* Impacted.ttf */,
+				4C7D592D2089D9C400235320 /* Super Comic.otf */,
+				4C7D5933208A0E1C00235320 /* Comic Sans Ms.ttf */,
+				4C7D5935208A0F5500235320 /* Blockt.ttf */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
@@ -177,7 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7D59312089D9D400235320 /* Impacted.ttf in Resources */,
 				4C39EB6820888C47003BF7BB /* LaunchScreen.storyboard in Resources */,
+				4C7D59322089D9D400235320 /* impact.ttf in Resources */,
+				4C7D5934208A0E1D00235320 /* Comic Sans Ms.ttf in Resources */,
+				4C7D592E2089D9C400235320 /* Super Comic.otf in Resources */,
+				4C7D5936208A0F5500235320 /* Blockt.ttf in Resources */,
 				4C39EB6520888C47003BF7BB /* Assets.xcassets in Resources */,
 				4C39EB6320888C45003BF7BB /* Main.storyboard in Resources */,
 			);
@@ -359,12 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5B5LZYQW;
 				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.MemeMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.MemeMeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -376,12 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5B5LZYQW;
 				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Udacity.MemeMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Udacity.MemeMeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
